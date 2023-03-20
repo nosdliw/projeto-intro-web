@@ -1,4 +1,4 @@
-const item = {
+item = {
     nome: ("Leão").toUpperCase(),
     nomeCientifico:("Panthera leo"),
     tempoMediodeVida: (15),
@@ -7,7 +7,7 @@ const item = {
     "Os machos lutam entre si para disputar a fêmea e vence quem for o mais forte"),
     estáExtinto: !true,
 };
-const item2 = {
+item2 = {
     nome: ("Leão marinho").toUpperCase(),
     nomeCientifico: ("Otariinae"),
     tempoMediodeVida: (25),
@@ -17,7 +17,7 @@ const item2 = {
     "pode atingir cerca de 300 kg"),
     estáExtinto: !true,
 };
-const item3 = {
+ item3 = {
     nome: ("Mico leão dourado").toUpperCase(),
     nomeCientifico: ("Leontopithecus rosalia"),
     tempoMediodeVida: (22),
@@ -27,10 +27,21 @@ const item3 = {
     estáExtinto: !true,
 };
 
+const arrayObj = [] 
+
+if (item.estáExtinto === false){
+    arrayObj.push(item)
+    arrayObj.push(item2)
+    arrayObj.push(item3)
+}
+
+
 // let soma = (item.tempoMediodeVida + item2.tempoMediodeVida + item3.tempoMediodeVida);
 // let media = `A média de vida entre os leões é ${soma / 3}`;
 
 // console.log(media);
 // console.log(item.estáExtinto && item2.estáExtinto && item3.estáExtinto);
 
-console.log(item, item2, item3);
+//console.log(item, item2, item3);
+
+console.log(arrayObj);
