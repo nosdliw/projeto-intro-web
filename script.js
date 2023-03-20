@@ -33,6 +33,8 @@ if (item.estáExtinto === false){
     arrayObj.push(item)
     arrayObj.push(item2)
     arrayObj.push(item3)
+}else {
+    alert("Não foi possível concluir o push")
 }
 
 
