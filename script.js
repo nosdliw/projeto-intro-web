@@ -29,3 +29,4 @@ let media = `A média de vida entre os leões é ${soma / 3}`;
 console.log(media);
 console.log(item.estáExtinto && item2.estáExtinto && item3.estáExtinto);
 
+
