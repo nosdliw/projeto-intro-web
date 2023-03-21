@@ -1,4 +1,4 @@
-item = {
+const item = {
     nome: ("Leão").toUpperCase(),
     nomeCientifico:("Panthera leo"),
     tempoMediodeVida: (15),
@@ -7,7 +7,7 @@ item = {
     "Os machos lutam entre si para disputar a fêmea e vence quem for o mais forte"),
     estáExtinto: !true,
 };
-item2 = {
+const item2 = {
     nome: ("Leão marinho").toUpperCase(),
     nomeCientifico: ("Otariinae"),
     tempoMediodeVida: (25),
@@ -17,7 +17,7 @@ item2 = {
     "pode atingir cerca de 300 kg"),
     estáExtinto: !true,
 };
- item3 = {
+const item3 = {
     nome: ("Mico leão dourado").toUpperCase(),
     nomeCientifico: ("Leontopithecus rosalia"),
     tempoMediodeVida: (22),
@@ -47,3 +47,14 @@ if (item.estáExtinto === false){
 //console.log(item, item2, item3);
 
 console.log(arrayObj);
+
+ 
+console.log(`${item.nome} \n ${item.classe} \n ${item.habitos}`)
+console.log(`${item2.nome} \n ${item2.classe} \n ${item2.habitos}`)
+console.log(`${item3.nome} \n ${item3.classe} \n ${item3.habitos}`)
+
+for (let i in arrayObj) {
+    for (j in arrayObj[i]){
+        console.log(arrayObj[i][j])
+    }
+}
