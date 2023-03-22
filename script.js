@@ -58,7 +58,7 @@ for (let i in arrayObj) {
         console.log(arrayObj[i][j])
     }
 }
-*/
+
 
 function retornaitem (outra, string){
     let retonraitem = {}
@@ -74,4 +74,4 @@ function retornaitem (outra, string){
     console.log(retonraitem)
 }
 
-retornaitem(arrayObj, "LEÃO")//ESCREVA EM CAIXA ALTA!
+retornaitem(arrayObj, "LEÃO")//ESCREVA EM CAIXA ALTA!*/
