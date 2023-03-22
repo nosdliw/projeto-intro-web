@@ -46,10 +46,10 @@ if (item.estáExtinto === false){
 
 //console.log(item, item2, item3);
 
-console.log(arrayObj);
+//console.log(arrayObj);
 
  
-console.log(`${item.nome} \n ${item.classe} \n ${item.habitos}`)
+/*console.log(`${item.nome} \n ${item.classe} \n ${item.habitos}`)
 console.log(`${item2.nome} \n ${item2.classe} \n ${item2.habitos}`)
 console.log(`${item3.nome} \n ${item3.classe} \n ${item3.habitos}`)
 
@@ -58,3 +58,20 @@ for (let i in arrayObj) {
         console.log(arrayObj[i][j])
     }
 }
+*/
+
+function retornaitem (outra, string){
+    let retonraitem = {}
+    
+    for (let i in outra){
+        for(let j in outra[i]){
+            if (outra[i][j]==string){
+                retonraitem = outra[i]
+            }
+        }
+    }
+    
+    console.log(retonraitem)
+}
+
+retornaitem(arrayObj, "LEÃO")//ESCREVA EM CAIXA ALTA!
